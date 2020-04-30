@@ -26,11 +26,14 @@ $red: #f25c05;
 	font-family: "Quicksand", sans-serif;
 }
 
+section {
+	width: 50%;
+}
+
 .divider {
 	border-top: 2px solid $primary-blue;
 	border-bottom: 2px solid $primary-blue;
 	padding: 7px;
-	width: 50%;
 	color: $primary-blue;
 	text-align: center;
 	margin-top: 10px;
@@ -38,7 +41,6 @@ $red: #f25c05;
 
 .matrix,
 .criteria {
-	width: 50%;
 	padding: 20px;
 	padding-top: 0;
 }
